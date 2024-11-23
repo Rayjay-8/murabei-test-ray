@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import NavigationBar from "@/components/NavigationBar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,9 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Murabei Library</title>
+    </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NavigationBar />
         {children}
       </body>
     </html>
