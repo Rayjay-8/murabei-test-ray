@@ -1,0 +1,877 @@
+{
+   "kind": "books#volumes",
+   "totalItems": 1132,
+   "items": [
+     {
+       "kind": "books#volume",
+       "id": "UCPXV4APavgC",
+       "etag": "AEsbbYrKomA",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/UCPXV4APavgC",
+       "volumeInfo": {
+         "title": "Opening Spaces",
+         "subtitle": "An Anthology of Contemporary African Women's Writings",
+         "authors": [
+           "Yvonne Vera"
+         ],
+         "publisher": "Heinemann",
+         "publishedDate": "1999",
+         "description": "In this anthology the award-winning author Yvonne Vera brings together the stories of many talented writers from different parts of Africa.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_10",
+             "identifier": "0435910108"
+           },
+           {
+             "type": "ISBN_13",
+             "identifier": "9780435910105"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 196,
+         "printType": "BOOK",
+         "categories": [
+           "Language Arts & Disciplines"
+         ],
+         "averageRating": 5,
+         "ratingsCount": 1,
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "1.4.4.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=UCPXV4APavgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=UCPXV4APavgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=UCPXV4APavgC&printsec=frontcover&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=1&source=gbs_api",
+         "infoLink": "http://books.google.com.br/books?id=UCPXV4APavgC&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&source=gbs_api",
+         "canonicalVolumeLink": "https://books.google.com/books/about/Opening_Spaces.html?hl=&id=UCPXV4APavgC"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "NOT_FOR_SALE",
+         "isEbook": false
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Opening_Spaces-sample-pdf.acsm?id=UCPXV4APavgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=UCPXV4APavgC&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "In this anthology the award-winning author Yvonne Vera brings together the stories of many talented writers from different parts of Africa."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "vD2tAwAAQBAJ",
+       "etag": "Q7PC8bQR17U",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/vD2tAwAAQBAJ",
+       "volumeInfo": {
+         "title": "Imagining Insiders",
+         "authors": [
+           "Mineke Schipper"
+         ],
+         "publisher": "A&C Black",
+         "publishedDate": "1999-08-01",
+         "description": "Challenges common views of how Africans and African Americans approach race, Western civilization, and their influences",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9780304704798"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "0304704792"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 240,
+         "printType": "BOOK",
+         "categories": [
+           "Political Science"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.122.1.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=vD2tAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=vD2tAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=vD2tAwAAQBAJ&printsec=frontcover&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=2&source=gbs_api",
+         "infoLink": "http://books.google.com.br/books?id=vD2tAwAAQBAJ&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&source=gbs_api",
+         "canonicalVolumeLink": "https://books.google.com/books/about/Imagining_Insiders.html?hl=&id=vD2tAwAAQBAJ"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "NOT_FOR_SALE",
+         "isEbook": false
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Imagining_Insiders-sample-pdf.acsm?id=vD2tAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=vD2tAwAAQBAJ&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "Challenges common views of how Africans and African Americans approach race, Western civilization, and their influences"
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "xZmWF3qxHo4C",
+       "etag": "8JTorRKXwek",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/xZmWF3qxHo4C",
+       "volumeInfo": {
+         "title": "Bodies and Voices",
+         "subtitle": "The Force-field of Representation and Discourse in Colonial and Postcolonial Studies",
+         "authors": [
+           "Anna Rutherford",
+           "European Association for Commonwealth Literature and Language Studies. Conference"
+         ],
+         "publisher": "Rodopi",
+         "publishedDate": "2008",
+         "description": "The articles investigate representations in literature, both by the colonizers and colonized. Many deal with the effect the dominant culture had on the self image of native inhabitants. They cover areas on all continents that were colonized by European countries.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9789042023345"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "9042023341"
+           }
+         ],
+         "readingModes": {
+           "text": true,
+           "image": true
+         },
+         "pageCount": 500,
+         "printType": "BOOK",
+         "categories": [
+           "History"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "1.2.3.0.preview.3",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=xZmWF3qxHo4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=xZmWF3qxHo4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=xZmWF3qxHo4C&pg=PA79&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=3&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=xZmWF3qxHo4C&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=xZmWF3qxHo4C"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+           "amount": 554.31,
+           "currencyCode": "BRL"
+         },
+         "retailPrice": {
+           "amount": 554.31,
+           "currencyCode": "BRL"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=xZmWF3qxHo4C&rdid=book-xZmWF3qxHo4C&rdot=1&source=gbs_api",
+         "offers": [
+           {
+             "finskyOfferType": 1,
+             "listPrice": {
+               "amountInMicros": 554310000,
+               "currencyCode": "BRL"
+             },
+             "retailPrice": {
+               "amountInMicros": 554310000,
+               "currencyCode": "BRL"
+             },
+             "giftable": true
+           }
+         ]
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Bodies_and_Voices-sample-epub.acsm?id=xZmWF3qxHo4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Bodies_and_Voices-sample-pdf.acsm?id=xZmWF3qxHo4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=xZmWF3qxHo4C&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... areas of \u003cb\u003efemale\u003c/b\u003e desire , effectively \u003cb\u003eopening\u003c/b\u003e new \u003cb\u003espaces\u003c/b\u003e for \u003cb\u003eAfrican\u003c/b\u003e womanism . — WORKS CITED Aidoo , Ama Ata . “ Everything counts , ” in No Sweetness Here ( 1970 ; Longman \u003cb\u003eAfrican Writers\u003c/b\u003e ; Harlow , Essex : Longman , 1994 ) : 1–7&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "tWTlAgAAQBAJ",
+       "etag": "T4cG9U8mFvA",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/tWTlAgAAQBAJ",
+       "volumeInfo": {
+         "title": "Writing Africa in the Short Story",
+         "authors": [
+           "Ernest Emenyo̲nu"
+         ],
+         "publisher": "Boydell & Brewer Ltd",
+         "publishedDate": "2013",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9781847010810"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "1847010814"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 194,
+         "printType": "BOOK",
+         "categories": [
+           "Short stories, African (English)"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.1.1.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=tWTlAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=tWTlAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=tWTlAgAAQBAJ&pg=PA88&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=4&source=gbs_api",
+         "infoLink": "http://books.google.com.br/books?id=tWTlAgAAQBAJ&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&source=gbs_api",
+         "canonicalVolumeLink": "https://books.google.com/books/about/Writing_Africa_in_the_Short_Story.html?hl=&id=tWTlAgAAQBAJ"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "NOT_FOR_SALE",
+         "isEbook": false
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Writing_Africa_in_the_Short_Story-sample-pdf.acsm?id=tWTlAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=tWTlAgAAQBAJ&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... \u003cb\u003eAfrican\u003c/b\u003e Heritage Press , 2005 . The Power of a Plate of Rice &#39; . \u003cb\u003eOpening Spaces\u003c/b\u003e . An \u003cb\u003eAnthology\u003c/b\u003e of \u003cb\u003eContemporary African Women&#39;s Writing\u003c/b\u003e . Ed . Yvonne Vera . London : Heinemann , 1999 : 91 . &#39; Waiting for a Son &#39; . Short Stories by 16&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "02wEYvEpRgUC",
+       "etag": "KuZJrH5bkBk",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/02wEYvEpRgUC",
+       "volumeInfo": {
+         "title": "Rites of Passage in Postcolonial Women's Writing",
+         "authors": [
+           "Pauline Dodgson-Katiyo",
+           "Gina Wisker"
+         ],
+         "publisher": "Rodopi",
+         "publishedDate": "2010-01",
+         "description": "This volume brings a variety of new approaches and contexts to modem and contemporary women's writing. Contributors include both new and well-established scholars from Europe, Australia, the USA , and the Caribbean. Their essays draw on, adapt, and challenge anthropological perspectives on rites of passage derived from the work of Arnold van Gennep and Victor Turner. Collectively, the essays suggest that women's writing and women's experiences from diverse cultures go beyond any straightforward notion of a threefold structure of separation, transition, and incorporation. Some essays include discussion of traditional rites of passage such as birth, motherhood, marriage, death, and bereavement; others are interested in exploring less traditional, more fluid, and/or problematic rites such as abortion, living with HI V/AIDS, and coming into political consciousness. Contributors seek ways of linking writing on rites of passage to feminist, postcolonial, and psychoanalytic theories which foreground margins, borders, and the outsider. The three opening essays explore the work of the Zimbabwean writer Yvonne Vera, whose groundbreaking work explored taboo subjects such as infanticide and incest. A wide range of other essays focus on writers from Africa, the Americas, Asia, Australia, and Europe. including Jean Rhys, Bharati Mukherjee, Arundhati Roy, Jean Arasanayagam, Victoria Nalani Kneubuhl, and Eva Sallis. Rites of Passage in Postcolonial Women's Writing will be of interest to scholars working in the fields of postcolonial and modern and contemporary women's writing, and to students on literature and women's studies courses who want to study women's writing from a cross-cultural perspective and from different theoretical positions. Pauline Dodgson-Katiyo is Head of Humanities at Sheffield Hallam University. Her research focus is on African literature (particularly Zimbabwean), contemporary women's writing, and postcolonial cinemas. Gina Wisker is Professor of Higher Education and Contemporary Literature at the University of Brighton, where she teaches literature, is the head of the centre for learning and teaching, and pursues her research interests in postcolonial women's writing.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9789042029354"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "9042029358"
+           }
+         ],
+         "readingModes": {
+           "text": true,
+           "image": true
+         },
+         "pageCount": 307,
+         "printType": "BOOK",
+         "categories": [
+           "Literary Criticism"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.0.2.0.preview.3",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=02wEYvEpRgUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=02wEYvEpRgUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=02wEYvEpRgUC&pg=PA87&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=5&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=02wEYvEpRgUC&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=02wEYvEpRgUC"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+           "amount": 354.76,
+           "currencyCode": "BRL"
+         },
+         "retailPrice": {
+           "amount": 354.76,
+           "currencyCode": "BRL"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=02wEYvEpRgUC&rdid=book-02wEYvEpRgUC&rdot=1&source=gbs_api",
+         "offers": [
+           {
+             "finskyOfferType": 1,
+             "listPrice": {
+               "amountInMicros": 354760000,
+               "currencyCode": "BRL"
+             },
+             "retailPrice": {
+               "amountInMicros": 354760000,
+               "currencyCode": "BRL"
+             },
+             "giftable": true
+           }
+         ]
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Rites_of_Passage_in_Postcolonial_Women_s-sample-epub.acsm?id=02wEYvEpRgUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Rites_of_Passage_in_Postcolonial_Women_s-sample-pdf.acsm?id=02wEYvEpRgUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=02wEYvEpRgUC&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... \u003cb\u003eOpening Spaces\u003c/b\u003e: An \u003cb\u003eAnthology\u003c/b\u003e of \u003cb\u003eContemporary African Women&#39;s Writing\u003c/b\u003e, ed. Yvonne Vera (Oxford: Heinemann &amp; Harare: Baobab, 1999): 3. 1 Though ritual and theatre are seldom confused by their \u003cb\u003eWomen Writing\u003c/b\u003e AIDS in South \u003cb\u003eAfrica\u003c/b\u003e and Zimbabwe&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "aTwpEAAAQBAJ",
+       "etag": "EoZAkVrgm3o",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/aTwpEAAAQBAJ",
+       "volumeInfo": {
+         "title": "The Space of the Transnational",
+         "subtitle": "Feminisms and Ummah in African and Southeast Asian Writing",
+         "authors": [
+           "Shirin E. Edwin"
+         ],
+         "publisher": "State University of New York Press",
+         "publishedDate": "2021-12-01",
+         "description": "This book examines Muslim women's creative strategies of deploying religious concepts such as ummah, or community, to solve problems of domestic and communal violence, polygamous abuse, sterility, and heteronormativity. By closely reading and examining examples of ummah-building strategies in interfaith dialogues, exchanges, and encounters between Muslim and non-Muslim women in a selection of African and Southeast Asian fictions and essays, this book highlights women's assertive activisms to redefine transnationalism, understood as relationships across national boundaries, as transgeography. Ummah-building strategies shift the space of, or respatialize, transnational relationships, focusing on connections between communities, groups, and affiliations within the same nation. Such a respatialization also enables a more equitable and inclusive remediation of the citizenship of gendered and religious citizens to the nation-state and the transnational sphere of relationships.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9781438486406"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "1438486405"
+           }
+         ],
+         "readingModes": {
+           "text": true,
+           "image": true
+         },
+         "pageCount": 309,
+         "printType": "BOOK",
+         "categories": [
+           "Social Science"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "1.1.1.0.preview.3",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=aTwpEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=aTwpEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=aTwpEAAAQBAJ&pg=PT283&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=6&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=aTwpEAAAQBAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aTwpEAAAQBAJ"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+           "amount": 199.38,
+           "currencyCode": "BRL"
+         },
+         "retailPrice": {
+           "amount": 199.38,
+           "currencyCode": "BRL"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=aTwpEAAAQBAJ&rdid=book-aTwpEAAAQBAJ&rdot=1&source=gbs_api",
+         "offers": [
+           {
+             "finskyOfferType": 1,
+             "listPrice": {
+               "amountInMicros": 199380000,
+               "currencyCode": "BRL"
+             },
+             "retailPrice": {
+               "amountInMicros": 199380000,
+               "currencyCode": "BRL"
+             },
+             "giftable": true
+           }
+         ]
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/The_Space_of_the_Transnational-sample-epub.acsm?id=aTwpEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/The_Space_of_the_Transnational-sample-pdf.acsm?id=aTwpEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=aTwpEAAAQBAJ&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... New Generation of \u003cb\u003eAfrican Writers\u003c/b\u003e: Migration, Material Culture and Language. Oxford: James Currey; Pietermaritzburg: University of KwaZulu-Natal Press, 2008. Cousins, Helen. “Nothing Like Motherhood: Barrenness, Abortion, and&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "Zdft6vWm8T0C",
+       "etag": "ImTHhsW5IlY",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/Zdft6vWm8T0C",
+       "volumeInfo": {
+         "title": "A Companion to Twentieth-Century Poetry",
+         "authors": [
+           "Neil Roberts"
+         ],
+         "publisher": "John Wiley & Sons",
+         "publishedDate": "2008-04-15",
+         "description": "In the twentieth century more people spoke English and more people wrote poetry than in the whole of previous history, and this Companion strives to make sense of this crowded poetical era. The original contributions by leading international scholars and practising poets were written as the contributors adjusted to the idea that the possibilities of twentieth-century poetry were exhausted and finite. However, the volume also looks forward to the poetry and readings that the new century will bring. The Companion embraces the extraordinary development of poetry over the century in twenty English-speaking countries; a century which began with a bipolar transatlantic connection in modernism and ended with the decentred heterogeneity of post-colonialism. Representation of the 'canonical' and the 'marginal' is therefore balanced, including the full integration of women poets and feminist approaches and the in-depth treatment of post-colonial poets from various national traditions. Discussion of context, intertextualities and formal approaches illustrates the increasing self-consciousness and self-reflexivity of the period, whilst a 'Readings' section offers new readings of key selected texts. The volume as a whole offers critical and contextual coverage of the full range of English-language poetry in the last century.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9780470998663"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "0470998660"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 648,
+         "printType": "BOOK",
+         "categories": [
+           "Literary Criticism"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "preview-1.0.0",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=Zdft6vWm8T0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=Zdft6vWm8T0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=Zdft6vWm8T0C&pg=PA263&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=7&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=Zdft6vWm8T0C&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Zdft6vWm8T0C"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+           "amount": 312.1,
+           "currencyCode": "BRL"
+         },
+         "retailPrice": {
+           "amount": 312.1,
+           "currencyCode": "BRL"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=Zdft6vWm8T0C&rdid=book-Zdft6vWm8T0C&rdot=1&source=gbs_api",
+         "offers": [
+           {
+             "finskyOfferType": 1,
+             "listPrice": {
+               "amountInMicros": 312100000,
+               "currencyCode": "BRL"
+             },
+             "retailPrice": {
+               "amountInMicros": 312100000,
+               "currencyCode": "BRL"
+             },
+             "giftable": true
+           }
+         ]
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/A_Companion_to_Twentieth_Century_Poetry-sample-pdf.acsm?id=Zdft6vWm8T0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=Zdft6vWm8T0C&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... : Heinemann. Zettersten, Arne (ed.) (1983). East \u003cb\u003eAfrican Literature\u003c/b\u003e: An \u003cb\u003eAnthology\u003c/b\u003e. London and New York: Longman. Beier Verse. London: King, Bruce (ed.) (1996). New National and Post-Colonial Literatures: An. \u003cb\u003eAfrican\u003c/b\u003e. Poetry. 263."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "QAOUAgAAQBAJ",
+       "etag": "5GnmrFr+ZDk",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/QAOUAgAAQBAJ",
+       "volumeInfo": {
+         "title": "Routledge International Encyclopedia of Women",
+         "subtitle": "Global Women's Issues and Knowledge",
+         "authors": [
+           "Cheris Kramarae",
+           "Dale Spender"
+         ],
+         "publisher": "Routledge",
+         "publishedDate": "2004-04-16",
+         "description": "For a full list of entries and contributors, sample entries, and more, visit the Routledge International Encyclopedia of Women website. Featuring comprehensive global coverage of women's issues and concerns, from violence and sexuality to feminist theory, the Routledge International Encyclopedia of Women brings the field into the new millennium. In over 900 signed A-Z entries from US and Europe, Asia, the Americas, Oceania, and the Middle East, the women who pioneered the field from its inception collaborate with the new scholars who are shaping the future of women's studies to create the new standard work for anyone who needs information on women-related subjects.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_13",
+             "identifier": "9781135963156"
+           },
+           {
+             "type": "ISBN_10",
+             "identifier": "1135963150"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 2050,
+         "printType": "BOOK",
+         "categories": [
+           "Reference"
+         ],
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "2.6.3.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=QAOUAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=QAOUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=QAOUAgAAQBAJ&pg=PT905&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=8&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=QAOUAgAAQBAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QAOUAgAAQBAJ"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+           "amount": 4404.5,
+           "currencyCode": "BRL"
+         },
+         "retailPrice": {
+           "amount": 4404.5,
+           "currencyCode": "BRL"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=QAOUAgAAQBAJ&rdid=book-QAOUAgAAQBAJ&rdot=1&source=gbs_api",
+         "offers": [
+           {
+             "finskyOfferType": 1,
+             "listPrice": {
+               "amountInMicros": 4404500000,
+               "currencyCode": "BRL"
+             },
+             "retailPrice": {
+               "amountInMicros": 4404500000,
+               "currencyCode": "BRL"
+             },
+             "giftable": true
+           }
+         ]
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Routledge_International_Encyclopedia_of-sample-pdf.acsm?id=QAOUAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=QAOUAgAAQBAJ&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "Global Women&#39;s Issues and Knowledge Cheris Kramarae, Dale Spender. Vera, Y., ed. 1999. \u003cb\u003eOpening spaces\u003c/b\u003e—An \u003cb\u003eanthology\u003c/b\u003e of \u003cb\u003econtemporary African womens writing\u003c/b\u003e. Zimbabwe: Baobb Books, Meinemann. Gloria Emeagwali committed to the principle of&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "VhGMpvji9tQC",
+       "etag": "7X1CfpmHOcA",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/VhGMpvji9tQC",
+       "volumeInfo": {
+         "title": "Tales of the Nation",
+         "subtitle": "Feminist Nationalism Or Patriotic History? : Defining National History and Identity in Zimbabwe",
+         "authors": [
+           "Lene Bull-Christiansen"
+         ],
+         "publisher": "Nordic Africa Institute",
+         "publishedDate": "2004",
+         "description": "In light of the uses and misuses of history in Zimbabwean politics in recent years, this research report focuses on how versions of the country \"s liberation war history have become a site of struggle over the definition of Zimbabwean national identity. As \"identity politics\" often do, Zimbabwean nationalism draws on a wide field of cultural symbols of identity and political discourses of inclusion and exclusion. Therefore, the report takes a cross-disciplinary approach to the issue of national identity by \"mapping out\" the imaginary field of Zimbabwean nationalism. This approach opens up the possibility of cross-reading the political discourses of the President and the ruling party ZANU (PF) with opposing voices such as those in the works of the author Yvonne Vera. This cross-reading shows how Vera \"s novels and the political discourses participate in the struggle over Zimbabwean national identity by offering different versions of the nation \"s history in the form of \"patriotic history,\" \"feminist nationalism,\" or narratives of difference. In this way the research report adds to our understanding of power and resistance in Zimbabwean politics of national identity.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_10",
+             "identifier": "9171065393"
+           },
+           {
+             "type": "ISBN_13",
+             "identifier": "9789171065391"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 128,
+         "printType": "BOOK",
+         "categories": [
+           "Political Science"
+         ],
+         "averageRating": 5,
+         "ratingsCount": 1,
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "0.16.9.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=VhGMpvji9tQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=VhGMpvji9tQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=VhGMpvji9tQC&pg=PA19&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=9&source=gbs_api",
+         "infoLink": "http://books.google.com.br/books?id=VhGMpvji9tQC&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&source=gbs_api",
+         "canonicalVolumeLink": "https://books.google.com/books/about/Tales_of_the_Nation.html?hl=&id=VhGMpvji9tQC"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "NOT_FOR_SALE",
+         "isEbook": false
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Tales_of_the_Nation-sample-pdf.acsm?id=VhGMpvji9tQC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=VhGMpvji9tQC&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... \u003cb\u003eAfrica&#39;s\u003c/b\u003e foremost feminist writers ( Primorac 2002 : 101 ) . In addition to her novels , Vera has acted as a literary critic and has edited an \u003cb\u003eanthology\u003c/b\u003e of \u003cb\u003econtemporary African women&#39;s writing\u003c/b\u003e : \u003cb\u003eOpening Spaces\u003c/b\u003e ( 1999 ) . Vera has&nbsp;..."
+       }
+     },
+     {
+       "kind": "books#volume",
+       "id": "rAUbyu1wRCsC",
+       "etag": "MrChkP8Y75M",
+       "selfLink": "https://www.googleapis.com/books/v1/volumes/rAUbyu1wRCsC",
+       "volumeInfo": {
+         "title": "Black African Literature in English, 1997-1999",
+         "authors": [
+           "Bernth Lindfors"
+         ],
+         "publisher": "James Currey Publishers",
+         "publishedDate": "2003",
+         "description": "This volume lists the work produced on anglophone black African literature between 1997 and 1999. This bibliographic work is a continuation of the highly acclaimed earlier volumes compiled by Bernth Lindfors. Containing about 10,000 entries, some of which are annotated to identify the authors discussed, it covers books, periodical articles, papers in edited collections and selective coverage of other relevant sources.",
+         "industryIdentifiers": [
+           {
+             "type": "ISBN_10",
+             "identifier": "085255575X"
+           },
+           {
+             "type": "ISBN_13",
+             "identifier": "9780852555750"
+           }
+         ],
+         "readingModes": {
+           "text": false,
+           "image": true
+         },
+         "pageCount": 500,
+         "printType": "BOOK",
+         "categories": [
+           "Literary Collections"
+         ],
+         "averageRating": 3,
+         "ratingsCount": 1,
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": false,
+         "contentVersion": "1.4.6.0.preview.1",
+         "panelizationSummary": {
+           "containsEpubBubbles": false,
+           "containsImageBubbles": false
+         },
+         "imageLinks": {
+           "smallThumbnail": "http://books.google.com/books/content?id=rAUbyu1wRCsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+           "thumbnail": "http://books.google.com/books/content?id=rAUbyu1wRCsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.com.br/books?id=rAUbyu1wRCsC&pg=PA419&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&cd=10&source=gbs_api",
+         "infoLink": "http://books.google.com.br/books?id=rAUbyu1wRCsC&dq=Opening+Spaces:+An+Anthology+of+Contemporary+African+Women%27s+Writing&hl=&source=gbs_api",
+         "canonicalVolumeLink": "https://books.google.com/books/about/Black_African_Literature_in_English_1997.html?hl=&id=rAUbyu1wRCsC"
+       },
+       "saleInfo": {
+         "country": "BR",
+         "saleability": "NOT_FOR_SALE",
+         "isEbook": false
+       },
+       "accessInfo": {
+         "country": "BR",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED",
+         "epub": {
+           "isAvailable": false
+         },
+         "pdf": {
+           "isAvailable": true,
+           "acsTokenLink": "http://books.google.com.br/books/download/Black_African_Literature_in_English_1997-sample-pdf.acsm?id=rAUbyu1wRCsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=rAUbyu1wRCsC&hl=&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+       },
+       "searchInfo": {
+         "textSnippet": "... \u003cb\u003eAfrican\u003c/b\u003e Poetry : An \u003cb\u003eAnthology\u003c/b\u003e , The 36526 New Coin 36429 , 36548 , 36570 New Dawn , The 41935 New Dictionary of South \u003cb\u003eAfrican\u003c/b\u003e Biography 34517 New Directions 40111 New Directions in \u003cb\u003eAfrican\u003c/b\u003e Fiction 35422 New Englishes : A West \u003cb\u003eAfrican\u003c/b\u003e&nbsp;..."
+       }
+     }
+   ]
+ }
