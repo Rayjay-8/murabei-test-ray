@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route("/", methods=["GET"])
 def hello_world():
-    return "Hello, World! 111"
+    return "Hello, World!"
 
 # GET /api/v1/books - returns a list of all books
 
@@ -23,10 +23,24 @@ def get_books():
 
     # Call the get_all_books function with the page and page_size parameters
     books = get_all_books(page=page, page_size=page_size)
+    total_books = get_count_all_books()
 
     # Return the books as a JSON response
-    return jsonify(books)
+    return jsonify({
+        'books': books,
+        'total': total_books
+    })
 
+@app.route('/api/v1/book/<id>', methods=['GET'])
+def get_book_info(id):
+    return jsonify(get_book_by_id(id))
+
+
+# GET /api/v1/books/title/<title> - returns a list of all books by the given title
+
+@app.route('/api/v1/books/title/<title>', methods=['GET'])
+def get_books_by_title(title):
+    return jsonify(get_books_by_title(title))
 
 # GET /api/v1/books/author/<author> - returns a list of all books by the given author
 
@@ -86,7 +100,8 @@ def get_all_books(page=1, page_size=10):
             'id': book[0],
             'title': book[1],
             'author': book[2],
-            'biography': book[4]
+            'biography': book[4],
+            'isbn13': book[8],
         }
         book_list.append(book_dict)
 
@@ -95,6 +110,57 @@ def get_all_books(page=1, page_size=10):
 
     # Return the books as a JSON response
     return book_list
+
+columns_book = {
+    0: "id",
+    1: "title",
+    2: "author",
+    3: "author_id",
+    4: "author_bio",
+    5: "authors",
+    6: "title_slug",
+    7: "author_slug",
+    8: "isbn13",
+    9: "isbn10",
+    10: "price",
+    11: "format",
+    12: "publisher",
+    13: "pubdate",
+    14: "edition",
+    15: "subjects",
+    16: "lexile",
+    17: "pages",
+    18: "dimensions",
+    19: "overview",
+    20: "excerpt",
+    21: "synopsis",
+    22: "toc",
+    23: "editorial_reviews",
+}
+
+def get_book_by_id(id):
+    conn = sqlite3.connect('db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute('SELECT * FROM book WHERE id = ?', (id,))
+    row = cursor.fetchone()
+    print(row)
+
+
+    book = {columns_book[i]: row[i] for i in range(len(row))}
+
+    # Close the database connection
+    conn.close()
+    return book
+
+def get_count_all_books():
+    conn = sqlite3.connect('db.sqlite')
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM book;')
+    total_books = cursor.fetchone()[0]
+    # Close the database connection
+    conn.close()
+    return total_books
+
 
 
 def get_authors():
@@ -122,14 +188,13 @@ def get_authors():
     # Return the authors as a JSON response
     return author_list
 
-
-def get_books_by_author_name(author_slug):
+def get_books_by_title(title):
     conn = sqlite3.connect('db.sqlite')
     cursor = conn.cursor()
 
-    # Execute a SELECT query to fetch all books by the given author
+    # Execute a SELECT query to fetch all books by the given title
     cursor.execute(
-        'SELECT * FROM book WHERE author_slug = ?;', (author_slug,))
+        'SELECT * FROM book WHERE title LIKE ?;', ('%' + title + '%',))
     books = cursor.fetchall()
 
     # Convert the books data to a list of dictionaries
@@ -142,6 +207,40 @@ def get_books_by_author_name(author_slug):
             'author': book[2],
             'biography': book[4],
             'authors': book[5],
+            'isbn13': book[8],
+            'publisher': book[12],
+            'synopsis': book[21],
+        }
+        book_list.append(book_dict)
+
+    # Close the database connection
+    conn.close()
+
+    # Return the books as a JSON response
+    return book_list
+
+def get_books_by_author_name(author_slug):
+    conn = sqlite3.connect('db.sqlite')
+    cursor = conn.cursor()
+
+    # Execute a SELECT query to fetch all books by the given author
+    cursor.execute(
+        'SELECT * FROM book WHERE author_slug LIKE ?;', ('%' + author_slug + '%',))
+    books = cursor.fetchall()
+
+    print("asdasdasdasdas", author_slug)
+
+    # Convert the books data to a list of dictionaries
+    book_list = []
+
+    for book in books:
+        book_dict = {
+            'id': book[0],
+            'title': book[1],
+            'author': book[2],
+            'biography': book[4],
+            'authors': book[5],
+            'isbn13': book[8],
             'publisher': book[12],
             'synopsis': book[21],
         }
@@ -231,33 +330,7 @@ def create_new_book(book_data):
     return {'message': 'Book created successfully.'}, 201
 
 
-# # GET /api/v1/books
-# @app.route("/api/v1/books", methods=["GET"])
-# def get_books():
 
-#     conn = sqlite3.connect('db.sqlite')
-#     cursor = conn.cursor()
 
-#     # Execute a SELECT query to fetch all books
-#     cursor.execute('SELECT * FROM book;')
-#     books = cursor.fetchall()
-
-#     # Convert the books data to a list of dictionaries
-#     book_list = []
-#     for book in books:
-#         book_dict = {
-#             'id': book[0],
-#             'title': book[1],
-#             'author': book[2],
-#             'year': book[3],
-#             'genre': book[4]
-#         }
-#         book_list.append(book_dict)
-
-#     # Close the database connection
-#     conn.close()
-
-#     # Return the books as a JSON response
-#     return jsonify(book_list)
-
-# # GET /api/v1/authors
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
