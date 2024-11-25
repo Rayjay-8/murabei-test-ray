@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react'
 import {
    NavigationMenu,
@@ -5,24 +7,41 @@ import {
    NavigationMenuLink
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
+import { Button } from './ui/button';
+import SearchBar from './SearchBar';
 
+import { usePathname } from 'next/navigation';
 
-const NavigationBar = () => {
+// import { headers } from 'next/headers';
+
+const NavigationBar = (props) => {
+
+    const router = usePathname();
+  const isHome = router === '/';
+
+  console.log(router)
+
   return (
    <header className="shadow-sm">
         <div className="container mx-auto flex justify-between items-center py-8">
         <div className="text-lg font-bold">
-        <Link href="/" className="hover:text-gray-400 transition">
+        <Link href="/" className="hover:text-gray-600 transition">
         Murabei Library
                         </Link>
                         </div>
+        <div>
+            {isHome ? null : <SearchBar/>}
+        </div>
         <NavigationMenu className="flex space-x-8">
+
            
                 <NavigationMenuItem>
                     <NavigationMenuLink asChild>
-                        <Link href="/books/create" className="hover:text-gray-400 transition">
+                        <Button variant="outline" asChild>
+                        <Link href="/createbook" className="hover:text-gray-600 transition">
                             New Book
                         </Link>
+                        </Button>
                     </NavigationMenuLink>
                 </NavigationMenuItem>
          

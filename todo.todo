@@ -11,7 +11,7 @@ Avaliacao
 [x] - deve estar todo em typescript
 [] - fazer deploy publico
 [] - adicionar teste end-to-end
-
+[] - quando a pesquisa nao retornar nada coloar algo
 
 extras
 [] - colocar imagens dos livros

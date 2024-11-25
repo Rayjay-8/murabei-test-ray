@@ -126,3 +126,7 @@ body {
   gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
+
+li {
+  list-style-type: none;
+}

@@ -143,8 +143,6 @@ def get_book_by_id(id):
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM book WHERE id = ?', (id,))
     row = cursor.fetchone()
-    print(row)
-
 
     book = {columns_book[i]: row[i] for i in range(len(row))}
 
