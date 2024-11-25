@@ -4,6 +4,7 @@ import { BookstypeComplete } from '@/types/schemas'
 import React from 'react'
 import Image from 'next/image'
 import { Button } from './ui/button'
+import DeleteBookButton from './DeleteBook'
 
 interface CardBookProps {
    book: BookstypeComplete
@@ -20,16 +21,7 @@ const BookPage:React.FC<CardBookProps> = ({book}) => {
          <span className='text-red-500 text-sm overflow-ellipsis-1-linhas'>{book.dimensions}</span>
          <span className='text-red-500 text-sm overflow-ellipsis-1-linhas'>{book.price}</span>
 
-         <Button variant="destructive">Delete Book</Button>
-
-
-         {/* <div
-            dangerouslySetInnerHTML={{ __html: book.editorial_reviews}}
-         />
-         <hr />
-         <div
-            dangerouslySetInnerHTML={{ __html: book.toc}}
-         /> */}
+         <DeleteBookButton id={book.id}>Delete Book</DeleteBookButton>
     </div>
   )
 }

@@ -1,6 +1,7 @@
 'use server'
 
 import CardBook from "@/components/CardBook";
+import Paginacao from "@/components/Paginacao";
 import SearchBar from "@/components/SearchBar";
 import { fetchBooksByType } from "@/services/books";
 import { BookSearchType } from "@/types/schemas";
@@ -11,37 +12,28 @@ import { BookSearchType } from "@/types/schemas";
 interface SearchPageProps {
    searchParams: {search: string, type: BookSearchType}
 }
- 
 
 const Page = async ({searchParams}:SearchPageProps) => {
-
-   console.log(searchParams)
 
    const searchparamsdefault = {
       search: searchParams.search ?? "",
       type: searchParams.type ?? "book"
    }
 
-    const books = await fetchBooksByType(searchparamsdefault.search, searchparamsdefault.type)
+   if(!searchparamsdefault.search){
+    return <div className="container mx-auto mt-6">
+          <h1 className="text-lg bold mb-6">the search bar is empty</h1>
+      <hr />
+    </div>
+   }
 
-  return (
+   const books = await fetchBooksByType(searchparamsdefault.search, searchparamsdefault.type)
+
+   return (
     <div className="container mx-auto mt-6">
       <h1 className="text-lg bold mb-6">Search</h1>
-
       <SearchBar defaultsearch={searchparamsdefault.search} defaulttype={searchparamsdefault.type}/>
-
-      <div className="mt-6  layout-grid-cards">
-      {books.map(book => {
-        return <CardBook key={book.id} book={book}/>
-      })}
-
-</div>
-
-      {/* <span>{type}</span>
-      <span>{search}</span> */}
-
-     
-      
+      {books?.length ? <Paginacao/> : <div className="mt-6">No results.<hr /></div>} 
     </div>)
 }
 

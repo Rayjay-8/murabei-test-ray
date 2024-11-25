@@ -8,6 +8,10 @@ export const fetchBooks = async (page: number = 1): Promise<{ data: booktype.Boo
    try {
        const response = await axios.get<{ books: booktype.Bookstype[]; total: number }>(`${process.env.API_BASE_URL}/books`, {
            params: { page, page_size: 15 },
+           headers: {
+            'Cache-Control': 'no-store', // Indica que a resposta não deve ser armazenada em cache
+            Pragma: 'no-cache',         // Compatibilidade com navegadores mais antigos
+          },
        });
        return {
            data: response.data.books,
@@ -59,3 +63,12 @@ export const deleteBook = async (id: number): Promise<void> => {
 };
 
 
+export const createBook = async (book: Omit<booktype.Bookstype, 'id'>): Promise<booktype.Bookstype> => {
+    try {
+        const response = await axios.post<booktype.Bookstype>(`${process.env.API_BASE_URL}/books`, book);
+        return response.data;
+    } catch (error) {
+        console.error('Failed to create book:', error);
+        throw new Error('Failed to create book. Please try again!');
+    }
+};

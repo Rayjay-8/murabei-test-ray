@@ -42,6 +42,7 @@ const SearchBar = ({defaultsearch="", defaulttype="book"}: {defaultsearch?: stri
 
     <Input 
     defaultValue={defaultsearch}
+    data-cy="searchinput"
     // onKeyDown={(e) => {
     //   console.log('e.code', e.code)
     //   if(e.code == `Enter`){
@@ -50,7 +51,7 @@ const SearchBar = ({defaultsearch="", defaulttype="book"}: {defaultsearch?: stri
     // }} 
     onBlur={e => setsearch(e.target.value)} type="search" placeholder={"Find the "+ (searchby || "book") + " you like..."} />
     
-    <Button variant="default" asChild>
+    <Button variant="default" data-cy="searchbutton" asChild>
       <Link href={"/search?type="+searchby+"&search="+search}>
         Search
       </Link>

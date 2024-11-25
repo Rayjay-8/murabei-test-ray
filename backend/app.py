@@ -81,6 +81,19 @@ def create_book():
 
     return jsonify(create_new_book(book_data))
 
+# DELETE /api/v1/books/<book_id> - deletes the book with the given ID
+
+@app.route('/api/v1/books/<int:book_id>', methods=['DELETE'])
+def delete_book(book_id):
+    conn = sqlite3.connect('db.sqlite')
+    cursor = conn.cursor()
+
+    cursor.execute('DELETE FROM book WHERE id = ?;', (book_id,))
+    conn.commit()
+    conn.close()
+
+    return jsonify({'message': 'Book deleted successfully.'}), 200
+
 
 def get_all_books(page=1, page_size=10):
     conn = sqlite3.connect('db.sqlite')
@@ -302,8 +315,6 @@ def get_books_by_subject_slug(subject):
 
 
 def create_new_book(book_data):
-    conn = sqlite3.connect('db.sqlite')
-    cursor = conn.cursor()
 
     # Get the book data from the request body
     title = book_data['title']
@@ -314,6 +325,10 @@ def create_new_book(book_data):
     publisher = book_data['publisher']
     synopsis = book_data['synopsis']
 
+    # Close the database connection
+    with sqlite3.connect('db.sqlite') as conn:
+        cursor = conn.cursor()
+        
     # Execute a query to create a new book
     cursor.execute('INSERT INTO book (title, author, author_slug, author_bio, authors, publisher, synopsis) VALUES (?, ?, ?, ?, ?, ?, ?);',
                    (title, author, author_slug, author_bio, authors, publisher, synopsis))
@@ -321,11 +336,20 @@ def create_new_book(book_data):
     # Commit the changes to the database
     conn.commit()
 
-    # Close the database connection
+    new_book_id = cursor.lastrowid
+
+     # Close the database connection
     conn.close()
 
     # Return a message to the user
-    return {'message': 'Book created successfully.'}, 201
+    return {
+        'message': 'Book created successfully.',
+        'book': {
+        'id': new_book_id,
+        'title': title,
+        'author': author,
+        'publisher': publisher
+    }}, 201
 
 
 
