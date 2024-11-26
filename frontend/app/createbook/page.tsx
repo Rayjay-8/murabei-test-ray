@@ -15,6 +15,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "@/components/ui/button";
 import { createBook } from "@/services/books";
 import { useRouter } from "next/navigation";
+import { Textarea } from "@/components/ui/textarea";
 
 const bookSchema = z.object({
   title: z.string().min(1, "Title is required").max(100, "Title is too long"),
@@ -121,7 +122,7 @@ const Page = () => {
               <FormItem>
                 <FormLabel>Author Bio</FormLabel>
                 <FormControl>
-                  <Input placeholder="Author Bio" {...field} />
+                  <Textarea placeholder="Author Bio" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
@@ -160,7 +161,7 @@ const Page = () => {
               <FormItem>
                 <FormLabel>Synopsis</FormLabel>
                 <FormControl>
-                  <Input placeholder="Synopsis" {...field} />
+                  <Textarea placeholder="Synopsis" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>

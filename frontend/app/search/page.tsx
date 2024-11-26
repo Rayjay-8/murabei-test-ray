@@ -1,7 +1,7 @@
 'use server'
 
 import CardBook from "@/components/CardBook";
-import Paginacao from "@/components/Paginacao";
+import PaginationBooks from "@/components/PaginationBooks";
 import SearchBar from "@/components/SearchBar";
 import { fetchBooksByType } from "@/services/books";
 import { BookSearchType } from "@/types/schemas";
@@ -33,7 +33,13 @@ const Page = async ({searchParams}:SearchPageProps) => {
     <div className="container mx-auto mt-6">
       <h1 className="text-lg bold mb-6">Search</h1>
       <SearchBar defaultsearch={searchparamsdefault.search} defaulttype={searchparamsdefault.type}/>
-      {books?.length ? <Paginacao/> : <div className="mt-6">No results.<hr /></div>} 
+
+      
+      {books?.length ? <>
+         <h2 className="mt-6">{books?.length} results founds</h2>
+         <PaginationBooks books={books}/>
+        
+         </> : <div className="mt-6">No results.<hr /></div>} 
     </div>)
 }
 
