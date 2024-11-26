@@ -4,10 +4,10 @@ import axios from 'axios';
 import { Book } from '@/types/schemas';
 import type * as booktype from '@/types/schemas';
 
-export const fetchBooks = async (page: number = 1): Promise<{ data: booktype.Bookstype[]; total: number }> => {
+export const fetchBooks = async (page: number = 1, pageSize = 12): Promise<{ data: booktype.Bookstype[]; total: number }> => {
    try {
        const response = await axios.get<{ books: booktype.Bookstype[]; total: number }>(`${process.env.API_BASE_URL}/books`, {
-           params: { page, page_size: 15 },
+           params: { page, page_size: pageSize },
            headers: {
             'Cache-Control': 'no-store', // Indica que a resposta não deve ser armazenada em cache
             Pragma: 'no-cache',         // Compatibilidade com navegadores mais antigos

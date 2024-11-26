@@ -1,8 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+   
    images: {
-      domains: ['covers.openlibrary.org'],
-      remotePatterns: []
+      remotePatterns: [
+         {
+            protocol: 'https',
+            hostname: 'covers.openlibrary.org',
+          }
+      ]
    }
 };
 
