@@ -57,8 +57,6 @@ describe('CriaLivros', () => {
 
     cy.contains('results founds')
 
-
-
    })
 
 });
