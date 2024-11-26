@@ -1,13 +1,9 @@
 'use server'
 
-import CardBook from "@/components/CardBook";
 import PaginationBooks from "@/components/PaginationBooks";
 import SearchBar from "@/components/SearchBar";
 import { fetchBooksByType } from "@/services/books";
 import { BookSearchType } from "@/types/schemas";
-
-// import React from 'react'
-// import { useSearchParams } from "next/navigation";
 
 interface SearchPageProps {
    searchParams: {search: string, type: BookSearchType}

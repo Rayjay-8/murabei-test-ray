@@ -3,7 +3,6 @@
 import { BookstypeComplete } from '@/types/schemas'
 import React from 'react'
 import Image from 'next/image'
-import { Button } from './ui/button'
 import DeleteBookButton from './DeleteBook'
 
 interface CardBookProps {

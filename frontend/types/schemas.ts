@@ -12,6 +12,29 @@ export const Book = z.object({
     isbn13: z.number(),
 })
 
+
+export const bookSchemaCreate = z.object({
+    title: z.string().min(1, "Title is required").max(100, "Title is too long"),
+    author: z
+      .string()
+      .min(1, "Author is required")
+      .max(100, "Author is too long"),
+    author_slug: z
+      .string()
+      .min(1, "Author slug is required")
+      .regex(
+        /^[a-z0-9-]+$/,
+        "Slug must be lowercase and contain only letters, numbers, or dashes"
+      ),
+    author_bio: z.string().optional(),
+    authors: z.string().optional(),
+    publisher: z.string().min(1, "Publisher is required"),
+    synopsis: z
+      .string()
+      .min(10, "Synopsis must be at least 10 characters long")
+      .max(500, "Synopsis is too long"),
+  });
+
 export const BookComplete = z.object({
     id: z.number(),
     title: z.string(),
@@ -43,3 +66,4 @@ export type BookSearchType = "book" | "author"
 
 export type Bookstype = z.infer<typeof Book>
 export type BookstypeComplete = z.infer<typeof BookComplete>
+export type BookData = z.infer<typeof bookSchemaCreate>;

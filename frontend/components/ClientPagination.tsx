@@ -8,12 +8,11 @@ import {
    PaginationNext,
    PaginationEllipsis,
 } from '@/components/ui/pagination';
-import BookPage from '@/components/BookPage';
-import { PaginationWithLinks } from './ui/pagination-with-links';
 
 interface ClientPaginationProps {
    currentPage: number;
    totalPages: number;
+   pageSize: number;
    onPageChange: (page: number) => void;
 }
 
@@ -22,7 +21,7 @@ export const ClientPagination: React.FC<ClientPaginationProps> = ({ currentPage,
    const startPage = Math.max(currentPage - Math.floor(maxPagesToShow / 2), 1);
    const endPage = Math.min(startPage + maxPagesToShow - 1, totalPages);
 
-   const pages = [];
+   const pages:Array<number | null> = [];
    for (let i = startPage; i <= endPage; i++) {
        pages.push(i);
    }
@@ -44,13 +43,13 @@ export const ClientPagination: React.FC<ClientPaginationProps> = ({ currentPage,
                        <PaginationEllipsis />
                    </PaginationItem>
                )}
-               {pages.map((page) => (
+               {pages.map((page) => page ? (
                    <PaginationItem key={page}>
                        <PaginationLink href="#bottom" isActive={page === currentPage} onClick={() => onPageChange(page)}>
                            {page}
                        </PaginationLink>
                    </PaginationItem>
-               ))}
+               ) : null)}
                {endPage < totalPages && (
                    <PaginationItem>
                        <PaginationEllipsis />

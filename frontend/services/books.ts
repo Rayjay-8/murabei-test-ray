@@ -1,7 +1,6 @@
 'use server'
 
 import axios from 'axios';
-import { Book } from '@/types/schemas';
 import type * as booktype from '@/types/schemas';
 
 export const fetchBooks = async (page: number = 1, pageSize = 12): Promise<{ data: booktype.Bookstype[]; total: number }> => {
@@ -23,7 +22,7 @@ export const fetchBooks = async (page: number = 1, pageSize = 12): Promise<{ dat
    }
 };
 
-export const fetchBook = async (id:number) => {
+export const fetchBook = async (id:string) => {
     try {
         const response = await axios.get(`${process.env.API_BASE_URL}/book/${id}`);
         return response.data
@@ -63,12 +62,19 @@ export const deleteBook = async (id: number): Promise<void> => {
 };
 
 
-export const createBook = async (book: Omit<booktype.Bookstype, 'id'>): Promise<booktype.Bookstype> => {
+type retornosucess = [{
+    book: {
+        id: number
+    }
+}, number]
+
+export const createBook = async (book: booktype.BookData): Promise<retornosucess | null> => {
     try {
-        const response = await axios.post<booktype.Bookstype>(`${process.env.API_BASE_URL}/books`, book);
-        return response.data;
+        const response = await axios.post<retornosucess>(`${process.env.API_BASE_URL}/books`, book);
+
+        return response?.data;
     } catch (error) {
         console.error('Failed to create book:', error);
-        throw new Error('Failed to create book. Please try again!');
+        return null
     }
 };

@@ -14,7 +14,7 @@ import { usePathname } from 'next/navigation';
 
 // import { headers } from 'next/headers';
 
-const NavigationBar = (props) => {
+const NavigationBar = () => {
 
     const router = usePathname();
   const isHome = router === '/';

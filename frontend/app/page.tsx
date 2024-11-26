@@ -1,6 +1,5 @@
 'use server'
 import Paginacao from "@/components/Paginacao";
-import PaginationBooks from "@/components/PaginationBooks";
 import SearchBar from "@/components/SearchBar";
 import SkeletonCardBook from "@/components/SkeletonCardBook";
 import { Suspense } from "react";
@@ -16,7 +15,7 @@ export default async function Home() {
         </section>
 
         <section className=" flex flex-col gap-8 min">
-          <h1 className="text-left max-w-2xl  text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Book's</h1>
+          <h1 className="text-left max-w-2xl  text-xl font-extrabold tracking-tight leading-none md:text-2xl xl:text-2xl dark:text-white">Book&apos;s</h1>
           <Suspense fallback={
             <div className="h-[700px] layout-grid-cards mb-12">
               <SkeletonCardBook/>

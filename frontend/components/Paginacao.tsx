@@ -1,17 +1,18 @@
 'use client'
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 import { fetchBooks } from '@/services/books';
 
 import CardBook from '@/components/CardBook';
 
 import { ClientPagination } from './ClientPagination';
+import { Bookstype } from '@/types/schemas';
 
 
 
 const Paginacao = () => {
 
-    const [books, setBooks] = useState<any[]>([]);
+    const [books, setBooks] = useState<Bookstype[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
 

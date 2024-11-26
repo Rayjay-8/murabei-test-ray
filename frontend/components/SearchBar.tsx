@@ -7,13 +7,11 @@ import {
   SelectContent,
   SelectGroup,
   SelectItem,
-  SelectLabel,
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select"
 import { Button } from "@/components/ui/button";
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 
 type searchtype = "" | "author" | "book"
 
@@ -21,8 +19,6 @@ const SearchBar = ({defaultsearch="", defaulttype="book"}: {defaultsearch?: stri
   
   const [searchby, setsearchby] = useState<searchtype>(defaulttype)
   const [search, setsearch] = useState("")
-
-  // const router = useRouter();
 
   return (
    <div className="flex gap-2">
@@ -32,7 +28,6 @@ const SearchBar = ({defaultsearch="", defaulttype="book"}: {defaultsearch?: stri
     </SelectTrigger>
     <SelectContent>
       <SelectGroup>
-        {/* <SelectLabel>select type search</SelectLabel> */}
         <SelectItem value="book">Book</SelectItem>
         <SelectItem value="author">Author</SelectItem>
         

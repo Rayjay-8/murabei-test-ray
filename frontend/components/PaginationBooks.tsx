@@ -1,6 +1,7 @@
 import CardBook from './CardBook'
+import { Bookstype } from '@/types/schemas';
 
-const PaginationBooks = ({books}) => {
+const PaginationBooks = ({books}:{books:Bookstype[]}) => {
    try{
       
       return (
@@ -11,6 +12,7 @@ const PaginationBooks = ({books}) => {
          </div>
       )
    }catch(err){
+      console.log(err)
       return (
          <div>Error!</div>
       )

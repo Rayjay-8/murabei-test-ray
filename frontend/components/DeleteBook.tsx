@@ -4,12 +4,13 @@ import { Trash } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { deleteBook } from '@/services/books';
 import { useToast } from "@/hooks/use-toast"
-import { redirect, useRouter } from "next/navigation";
-import { revalidatePath } from 'next/cache'
+import { useRouter } from "next/navigation";
 import action from '@/app/actions';
+
 
 interface DeleteBookType {
     id: number;
+    children: string;
 }
 
 const DeleteBookButton:React.FC<DeleteBookType> = ({ id, ...props }) => {

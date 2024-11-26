@@ -10,41 +10,17 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Button } from "@/components/ui/button";
 import { createBook } from "@/services/books";
 import { useRouter } from "next/navigation";
 import { Textarea } from "@/components/ui/textarea";
-
-const bookSchema = z.object({
-  title: z.string().min(1, "Title is required").max(100, "Title is too long"),
-  author: z
-    .string()
-    .min(1, "Author is required")
-    .max(100, "Author is too long"),
-  author_slug: z
-    .string()
-    .min(1, "Author slug is required")
-    .regex(
-      /^[a-z0-9-]+$/,
-      "Slug must be lowercase and contain only letters, numbers, or dashes"
-    ),
-  author_bio: z.string().optional(),
-  authors: z.string().optional(),
-  publisher: z.string().min(1, "Publisher is required"),
-  synopsis: z
-    .string()
-    .min(10, "Synopsis must be at least 10 characters long")
-    .max(500, "Synopsis is too long"),
-});
-
-type BookData = z.infer<typeof bookSchema>;
+import { BookData, bookSchemaCreate } from "@/types/schemas";
 
 const Page = () => {
 
   const form = useForm<BookData>({
-    resolver: zodResolver(bookSchema),
+    resolver: zodResolver(bookSchemaCreate),
   });
 
   const { toast } = useToast();

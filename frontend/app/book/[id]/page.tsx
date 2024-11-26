@@ -1,12 +1,15 @@
 'use server'
 
 import BookPage from "@/components/BookPage"
-import CardBook from "@/components/CardBook"
-import { Button } from "@/components/ui/button"
 import { fetchBook } from "@/services/books"
 
 
-const Page = async ({params}: any ) => {
+type Props = {
+  params: { id: string }
+  searchParams: { [key: string]: string | string[] | undefined }
+}
+
+const Page = async ({params}:Props) => {
 
   if (!params?.id) {
     return <div>Livro não encontrado.</div>
