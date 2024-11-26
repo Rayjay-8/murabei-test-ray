@@ -22,7 +22,7 @@ const NavigationBar = () => {
   console.log(router)
 
   return (
-   <header className="shadow-sm">
+   <header className="shadow-sm ">
         <div className="container mx-auto flex justify-between items-center py-8">
         <div className="text-lg font-bold">
         <Link href="/" className="hover:text-gray-600 transition">

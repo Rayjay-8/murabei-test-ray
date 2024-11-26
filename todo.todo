@@ -1,7 +1,7 @@
 
 Avaliacao
 [x] - usar versão >= 13
-[] - docker do FE
+[x] - docker do FE
 [x] - tela de listagem dos livros
 [x] - tela de busca de livros por titulo
 [x] - tela de busca de livros por autor
@@ -10,12 +10,12 @@ Avaliacao
 [x] - resolver problema cache livros deletados
 [x] - usar shadcn/ui
 [x] - deve estar todo em typescript
-[] - fazer deploy publico
+[x] - fazer deploy publico
 [x] - adicionar teste end-to-end
-[x] - quando a pesquisa nao retornar nada coloar algo
+[x] - validar os empty states api
 
 extras
-[x] - colocar imagens dos livros
+[x] - colocar imagens nos livros
 [] - fazer download imagens e colocar no cdn
 [] - escolher 10 livros e mostrar como recomendações
 [] - permitir salvar

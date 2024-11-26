@@ -24,7 +24,7 @@ const Page = async ({params}:Props) => {
     )
   } catch (error) {
     console.error("Erro ao buscar o livro:", error)
-    return <div className=" container mx-auto w-full mt-12">
+    return <div className=" md:container md:mx-auto w-full mt-12">
        <h1>😔 Oops!</h1>
         <p>
           Não conseguimos carregar as informações do livro no momento.
